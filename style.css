@@ -92,5 +92,56 @@ section{
 .bg3{
     background-image: url(sport-3.jpg);
 }
+@media (max-width: 768px) {
+  .heading {
+    font-size: 4rem;
+    top: 3rem;
+    text-align: center;
+  }
+
+  .sechead {
+    font-size: 2.5rem;
+    padding: 0 2rem;
+  }
+
+  .text {
+    font-size: 1rem;
+    padding: 0 2rem;
+    margin: 2rem 0;
+  }
+
+  .desc {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+
+  .bg {
+    background-attachment: scroll;
+    height: 300px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .sechead {
+    font-size: 2rem;
+  }
+
+  .desc {
+    font-size: 1.5rem;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
+}
+
 
 
